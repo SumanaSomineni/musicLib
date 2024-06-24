@@ -17,7 +17,7 @@ public class SongController {
         return songService.getSongs();
     }
 
-    @GetMappping("/songs/{songId}")
+    @GetMapping("/songs/{songId}")
     public Song getSongById(int songId) {
         return songService.getSongById(songId);
     }
